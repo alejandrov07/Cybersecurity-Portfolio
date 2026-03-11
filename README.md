@@ -4,7 +4,7 @@ Documenting my cybersecurity journey — certifications, TryHackMe labs, and lea
 Hi, I'm Alejandro Velázquez
 - 🎓 IT Engineering student specializing in Cybersecurity
 - 📍 Santo Domingo, Dominican Republic
-- Passionate about Network Security and Threat Analysis
+- 🔐 Passionate about Network Security and Threat Analysis
 
 🚀 About Me
 I'm a 20-year-old IT Engineering student currently building my foundation in cybersecurity. I'm actively working through the Google Cybersecurity Certificate program while developing hands-on skills through platforms like TryHackMe.
