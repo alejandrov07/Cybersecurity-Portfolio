@@ -1,12 +1,12 @@
-Scenario
+##Scenario
 A client's website — www.yummyrecipesforme.com — became inaccessible to multiple users. Customers reported seeing the error "destination port unreachable" when attempting to load the page. As a cybersecurity analyst, I was tasked with identifying the affected network protocol and documenting the incident.
 
-Tools & Methods
+##Tools & Methods
 - tcpdump — Network protocol analyzer used to capture and inspect live traffic
 - UDP/DNS query — Sent to DNS server to resolve the domain name to an IP address
 - ICMP error analysis — Analyzed the return error messages from the DNS server
 
-Part 1: DNS & ICMP Traffic Log Summary
+##Part 1: DNS & ICMP Traffic Log Summary
 The UDP protocol reveals that:
 The local machine (192.51.100.15) attempted to resolve the domain yummyrecipesforme.com by sending a UDP packet to the DNS server (203.0.113.2) on port 53. The DNS query requested an A record — a mapping between the domain name and its corresponding IP address.
 The network analysis shows that the ICMP error message returned was:
@@ -17,7 +17,7 @@ DNS (Domain Name System) — the service responsible for translating human-reada
 The most likely issue is:
 Either the DNS service on the server has crashed/stopped running, or a firewall rule is blocking incoming traffic on UDP port 53, preventing DNS queries from being processed.
 
-Part 2: Incident Analysis
+##Part 2: Incident Analysis
 FieldDetailsTime of Incident13:24:32 PM (first logged event)Affected HostDNS Server — 203.0.113.2Source IP192.51.100.15 (analyst's machine)Port AffectedUDP Port 53 (DNS)Error ReturnedICMP udp port 53 unreachableNumber of Failed Attempts3
 How the IT team became aware of the incident:
 Multiple customers reported being unable to access www.yummyrecipesforme.com and receiving the error "destination port unreachable." A cybersecurity analyst independently confirmed the issue by attempting to visit the site and receiving the same error. The incident was then escalated to the security engineering team.
@@ -40,7 +40,7 @@ Check server logs for signs of a DoS/DDoS attack or unauthorized configuration c
 Restore DNS service and monitor traffic for anomalies
 
 
-🗂️ tcpdump Log
+##🗂️ tcpdump Log
 13:24:32.192571 IP 192.51.100.15.52444 > 203.0.113.2.domain: 35084+ A? yummyrecipesforme.com. (24)
 13:24:36.098564 IP 203.0.113.2 > 192.51.100.15: ICMP 203.0.113.2 udp port 53 unreachable length 254
 
