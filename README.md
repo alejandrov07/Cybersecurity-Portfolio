@@ -11,13 +11,13 @@ I'm a 20-year-old IT Engineering student currently building my foundation in cyb
 My goal is to grow into a cybersecurity professional focused on protecting networks and analyzing threats. I'm at the beginning of my journey and committed to learning every day.
 
 🛠️ Currently Learning
-Network Security fundamentals
-Threat identification and risk management
-Security Information and Event Management (SIEM)
-Hands-on practice via TryHackMe
+- Network Security fundamentals
+- Threat identification and risk management
+- Security Information and Event Management (SIEM)
+- Hands-on practice via TryHackMe
 
 
 📜 Certifications
-✅ Foundations of Cybersecurity — Google (2025)
-✅ Play It Safe: Manage Security Risks — Google (2025)
-🔄 More in progress...
+- ✅ Foundations of Cybersecurity — Google (2025)
+- ✅ Play It Safe: Manage Security Risks — Google (2025)
+- 🔄 More in progress...
