@@ -1,3 +1,10 @@
+#🚨 Cybersecurity Incident Report: DNS & ICMP Traffic Analysis
+
+**Course:** Google Cybersecurity Certificate  
+**Type:** Network Traffic Analysis — DNS Failure  
+**Tool Used:** tcpdump  
+**Protocols Analyzed:** UDP, DNS, ICMP
+
 ## Scenario
 A client's website — www.yummyrecipesforme.com — became inaccessible to multiple users. Customers reported seeing the error "destination port unreachable" when attempting to load the page. As a cybersecurity analyst, I was tasked with identifying the affected network protocol and documenting the incident.
 
