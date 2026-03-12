@@ -1,4 +1,4 @@
-#🚨 Cybersecurity Incident Report: DNS & ICMP Traffic Analysis
+# 🚨 Cybersecurity Incident Report: DNS & ICMP Traffic Analysis
 
 **Course:** Google Cybersecurity Certificate  
 **Type:** Network Traffic Analysis — DNS Failure  
