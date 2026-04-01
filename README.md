@@ -20,4 +20,5 @@ My goal is to grow into a cybersecurity professional focused on protecting netwo
 📜 Certifications
 - ✅ Foundations of Cybersecurity — Google (2025)
 - ✅ Play It Safe: Manage Security Risks — Google (2025)
+- ✅ Connect and Protect: Networks and Network Security — Google (2025)
 - 🔄 More in progress...
