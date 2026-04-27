@@ -17,3 +17,5 @@ To identify attempts after a known baseline of security updates, I filtered for 
 ```sql
 SELECT * FROM log_in_attempts 
 WHERE login_date >= '2022-05-09';
+
+This project is part of my cybersecurity portfolio, completed as a hands-on exercise in [SQL FOR SECURITY ANALYSIS]
