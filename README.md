@@ -18,7 +18,12 @@ My goal is to grow into a cybersecurity professional focused on protecting netwo
 
 
 📜 Certifications
+
+- ✅ Conceptos básicos de redes - CISCO (2025)
+- ✅ Introduction to Cybersecurity - CISCO (2025)
 - ✅ Foundations of Cybersecurity — Google (2025)
 - ✅ Play It Safe: Manage Security Risks — Google (2025)
 - ✅ Connect and Protect: Networks and Network Security — Google (2025)
+- ✅ Tools of the Trade: Linux and SQL — Google (2025)
+- ✅ Assets, Threats, and Vulnerabilities — Google (2025)
 - 🔄 More in progress...
